@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <title>Yore</title>
+    <style>
+        
+        head, body, div, nav, section, input, main, span{
+        font-family: franklin gothic medium;
+        
+        }
+        body{
+            background-image: url(pics/img/val.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        
+        .row {
+            margin: 60px 50px;
+            padding: 0px;
+        }
+        .white-text{
+            size: 40px;
+        }
+        #img{
+            border: 2px solid #0e0f1b ;
+        }
+        #nav{
+            height: 100px;
+        }
+        h5{
+            
+            padding: 35px 0px;
+        }
+        .brand-logo{
+            top: -20px;
+        }
+        
+        
+
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <nav class="nav-wrapper transparent valign-wrapper z-depth-4" id="nav">
+            <div class="container">
+                <a href="index.html" class="brand-logo" ><h2>Yore</h2></a>
+                <a href="#" class="sidenav-trigger valign-wrapper" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>  
+                <ul class="right hide-on-med-and-down valign-wrapper ">
+                    <li><a href="index.html" class="active" ><h5>Home</h5></a></li>
+                    <li><a href="Aboutindex.html"><h5>About</h5></a></li>
+
+                   
+                </ul>
+                <ul class="sidenav grey darken-4"  id="mobile-menu">
+                    <li><a href="index.html" class="white-text" >Home</a></li>
+                    <li><a href="Aboutindex.html" class="white-text">About</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- photo / grid -->
+    <section class="containter" >
+        <div class="row  ">
+            <div class="col s12 m12 l6  hoverable" >
+                <a href="Agentindex.html">
+                    <img src="pics/img/AGENTS.png" class="responsive-img z-depth-5  " id="img" alt="" >
+                </a>
+            </div>
+        </div>
+
+        
+        <div class="row ">
+            <div class="col s12 m12 l6 push-l3 hoverable" >
+                <a href="Gunsindex.html">
+                    <img src="pics/img/GUNS.png" class="responsive-img z-depth-3" id="img" alt="">
+                </a>
+            </div>
+        </div>
+
+        
+        <div class="row">
+            <div class="col s12 m12 l6 push-l6 hoverable" >
+                <a href="Mapsindex.html">
+                    <img src="pics/img/Map.png" class="responsive-img z-depth-3" id="img" alt="">
+                </a>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <div>
+
+    </div>
+
+
+    
+
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        $ (document).ready(function(){
+            $('.sidenav').sidenav();
+            
+        });
+    </script>
+
+    
+</body>
+</html>
